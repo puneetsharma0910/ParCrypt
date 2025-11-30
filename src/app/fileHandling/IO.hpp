@@ -10,7 +10,7 @@ class IO{
     IO(const string &file_path);
     ~IO();
 
-    fstream getfilestream();
+    fstream getFileStream();
 
     private:
     fstream file_stream;

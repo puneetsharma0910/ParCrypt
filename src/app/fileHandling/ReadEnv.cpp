@@ -7,6 +7,8 @@
 class ReadEnv{
     public:
         std::string getenv(){
+
+            //steps to read env file 
             std::string env_path = ".env";
             IO io(env_path);
             std::fstream f_stream = io.getFileStream();

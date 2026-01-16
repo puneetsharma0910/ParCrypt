@@ -26,7 +26,9 @@ struct Task {
          //"text.txt, ENCRYPT"
         return oss.str();
     }
+    
 
+    // deserialze hrere
     static Task fromString(const std::string& taskData) {
         std::istringstream iss(taskData);
         std::string filePath;

@@ -5,7 +5,6 @@
 using namespace std;
 
 int executeCryption(const string &taskData){
-    
 }
 
 #endif
